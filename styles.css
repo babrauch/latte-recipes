@@ -1,0 +1,103 @@
+body {
+  background-color: #fff8ea;
+}
+
+.recipe {
+  color: #594545;
+  font-family: "Sacramento", cursive;
+  font-size: 75px;
+  text-align: center;
+}
+
+h2 {
+  color: #594545;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: normal;
+  text-align: center;
+}
+
+img {
+  height: 500px;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+}
+h3 {
+  color: #594545;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+}
+.ingredients {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+p {
+  color: #594545;
+  font-family: "Roboto", sans-serif;
+}
+
+.steps {
+  color: #594545;
+  font-family: "Roboto", sans-serif;
+}
+.steps p {
+  font-size: 20px;
+}
+.more-info {
+  text-align: center;
+}
+.more-recipes a {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+.more-info-link a {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+.latte-link {
+  color: #594545;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+/* .recipe-list ul {
+  text-align: center;
+  list-style: none;
+} */
+footer p {
+  font-family: "Roboto", sans-serif;
+  color: #594545;
+  text-align: center;
+  font-size: 20px;
+}
+
+button a {
+  color: #fff8ea;
+  background-color: #594545;
+}
+button {
+  color: #594545;
+  font-size: 20px;
+  padding: 12px 28px;
+  border-radius: 8px;
+}
+button:hover {
+  color: #9e7676;
+}
+
+/* class name based style definitions (like Tailwind.css) */
+.text-center {
+  text-align: center;
+  font-size: 20px;
+}
+
+.list-style-none {
+  list-style: none;
+}

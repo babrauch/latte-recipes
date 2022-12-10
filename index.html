@@ -1,42 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>
-       Latte Recipes
-    </title>
-</head>
-<body>
-    <h1>Latte Recipes</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Latte Recipes</title>
+  </head>
+  <body>
+    <h1 class="recipe">My Favorite Latte Recipes</h1>
     <h2>If you like Egg Nog and coffee, try this recipe.</h2>
-    <img src="https://www.allrecipes.com/thmb/o7r3b3oP6xhysVL7C_nkfw9otEU=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/733733-2c00e5d59d5d457fb37a0d8b66eaf6a9.jpg" alt="Egg nog Latte from All Recipes">
-    <h3>Ingredients</h3>
-    <p><strong>⅓ cup 2% milk </strong></p>
-    <p><strong>⅔ cup eggnog</strong></p>
-    <p><strong>1 (1.5 fluid ounce) jigger brewed espresso</strong></p>
-    <p><strong>1 pinch ground nutmeg</strong></p>
-    <p>This recipe is from allrecipes.com</p>
-    <br>
-    <h2>Steps</h2>
-    <ol>
-        <li><p>Pour milk and eggnog into a steaming pitcher and heat to between 145 degrees F to 165 degrees F (65 to 70 degrees C) using the steaming wand.</p></li>
-        <li><p>Brew the shot of espresso, then add to mug. Pour the steamed milk and eggnog into the mug, using a spoon to hold back the foam. Spoon foam over the top. Sprinkle nutmeg on top of the foam.</p></li>
-    </ol>
-    <p>For more information on this recipe. Click on the link below.</p>
-    <p><a href="https://www.allrecipes.com/recipe/146962/eggnog-latte/">Egg Nog Latte</a></p>
-    <h2>More Latte Recipes</h2>
-    <ul>  
-        <li><a href="https://www.allrecipes.com/recipe/146963/vanilla-latte/">Vanilla Latte</a> </li>
-        <li><a href="https://www.allrecipes.com/recipe/268430/biscoff-latte/">Biscoff Latte</a></li>
-        <li><a href="https://www.allrecipes.com/recipe/235879/campfire-smores-latte/">Campfire Smores Latte</a></li>
-    </ul>
-    <div>
-    <footer>
-        <p>allrecipes was where I found these recipes.</p>
-    <cite>
-        <a href="https://www.allrecipes.com/">allrecipes</a>
-    </cite>
-</footer>
-</div>
-</body>
+    <img
+      src="https://www.allrecipes.com/thmb/o7r3b3oP6xhysVL7C_nkfw9otEU=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/733733-2c00e5d59d5d457fb37a0d8b66eaf6a9.jpg"
+      alt="Egg nog Latte from All Recipes"
+    />
+    <section class="egg-nog-latte">
+      <h3>Ingredients</h3>
+      <p class="ingredients"><strong>⅓ cup 2% milk </strong></p>
+      <p class="ingredients"><strong>⅔ cup eggnog</strong></p>
+      <p class="ingredients">
+        <strong>1 (1.5 fluid ounce) jigger brewed espresso</strong>
+      </p>
+      <p class="ingredients"><strong>1 pinch ground nutmeg</strong></p>
+      <p class="latte-link">
+        <em
+          >This recipe is from
+          <a href="https://www.allrecipes.com/">allrecipes.com</a>
+        </em>
+      </p>
+      <br />
+      <section class="latte-steps">
+        <h2 class="steps">Steps</h2>
+        <ol>
+          <li>
+            <p>
+              Pour milk and eggnog into a steaming pitcher and heat to between
+              145 degrees F to 165 degrees F (65 to 70 degrees C) using the
+              steaming wand.
+            </p>
+          </li>
+          <br />
+          <li>
+            <p>
+              Brew the shot of espresso, then add to mug. Pour the steamed milk
+              and eggnog into the mug, using a spoon to hold back the foam.
+              Spoon foam over the top. Sprinkle nutmeg on top of the foam.
+            </p>
+          </li>
+        </ol>
+        <br />
+        <p class="more-info">
+          For more information on this recipe. Click on the link below.
+        </p>
+        <p class="text-center">
+          <a
+            class="more-info-link"
+            href="https://www.allrecipes.com/recipe/146962/eggnog-latte/"
+            >Egg Nog Latte</a
+          >
+        </p>
+      </section>
+    </section>
+    <section class="recipe-list">
+      <h2 class="more-recipes">More Latte Recipes</h2>
+      <ul class="text-center list-style-none">
+        <li class="more-recipes">
+          <a href="https://www.allrecipes.com/recipe/146963/vanilla-latte/"
+            >Vanilla Latte</a
+          >
+        </li>
+        <li class="more-recipes">
+          <a href="https://www.allrecipes.com/recipe/268430/biscoff-latte/"
+            >Biscoff Latte</a
+          >
+        </li>
+        <li class="more-recipes">
+          <a
+            href="https://www.allrecipes.com/recipe/235879/campfire-smores-latte/"
+            >Campfire Smores Latte</a
+          >
+        </li>
+      </ul>
+    </section>
+    <div class="references">
+      <footer>
+        <p>
+          I found these recipes on allrecipes. To learn more click on the button
+          below.
+          <cite>
+            <button>
+              <a href="https://www.allrecipes.com/">allrecipes</a>
+            </button>
+          </cite>
+        </p id="my-info">
+        This site was created by
+        <a href="https://www.linkedin.com/in/blair-brauch-a5875340/"
+          >Blair Brauch.</a
+        >
+      </footer>
+    </div>
+  </body>
 </html>
